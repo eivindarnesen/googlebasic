@@ -74,7 +74,7 @@ def mix_up(a, b):
     return a.replace(first_two_a, first_two_b) + ' ' + b.replace(first_two_b, first_two_a)
 
 
-return
+    return
 
 
 # Provided simple test() function used in main() to print
