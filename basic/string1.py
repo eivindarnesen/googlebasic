@@ -2,7 +2,11 @@
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
+<<<<<<< HEAD
 
+=======
+## Adding a personal line
+>>>>>>> 045a0a2ebc3dc0cacde3caec01683507f3df35c9
 # Google's Python Class
 # http://code.google.com/edu/languages/google-python-class/
 
@@ -25,9 +29,15 @@
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
   if count >= 10:
+<<<<<<< HEAD
     print "Number of donuts: many"
   else:
     print ("Number of donuts: " +str(count))
+=======
+    return ("Number of donuts: many")
+  else:
+    return "Number of donuts: " +str(count)
+>>>>>>> 045a0a2ebc3dc0cacde3caec01683507f3df35c9
   return
 
 
@@ -37,10 +47,18 @@ def donuts(count):
 # so 'spring' yields 'spng'. However, if the string length
 # is less than 2, return instead the empty string.
 def both_ends(s):
+<<<<<<< HEAD
   print (s[:2])
   print (s[-2:])
   if len(s) < 2:
     print ''
+=======
+  if len(s) < 2:
+    return ''
+  first_two = (s[:2])
+  last_two = (s[-2:])
+  return first_two + last_two
+>>>>>>> 045a0a2ebc3dc0cacde3caec01683507f3df35c9
   return
 
 
@@ -54,9 +72,16 @@ def both_ends(s):
 # Hint: s.replace(stra, strb) returns a version of string s
 # where all instances of stra have been replaced by strb.
 def fix_start(s):
+<<<<<<< HEAD
   first = s[:1]
   s.replace(first,'.')
   return
+=======
+    firstchar = s[0]
+    restchar = s[1:]
+    return firstchar + restchar.replace(firstchar,'*')
+    return
+>>>>>>> 045a0a2ebc3dc0cacde3caec01683507f3df35c9
 
 
 # D. MixUp
@@ -67,7 +92,13 @@ def fix_start(s):
 #   'dog', 'dinner' -> 'dig donner'
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
+<<<<<<< HEAD
   # +++your code here+++
+=======
+    first_two_a = a[0:2]
+    first_two_b = b[0:2]
+    return a.replace(first_two_a,first_two_b) + ' ' +  b.replace(first_two_b,first_two_a)
+>>>>>>> 045a0a2ebc3dc0cacde3caec01683507f3df35c9
   return
 
 
