@@ -2,7 +2,7 @@
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
-
+## Adding a personal line
 # Google's Python Class
 # http://code.google.com/edu/languages/google-python-class/
 
@@ -61,7 +61,7 @@ def fix_start(s):
     return
 
 
-# D. MixUp......
+# D. MixUp
 # Given strings a and b, return a single string with a and b separated
 # by a space '<a> <b>', except swap the first 2 chars of each string.
 # e.g.
@@ -72,7 +72,7 @@ def mix_up(a, b):
     first_two_a = a[0:2]
     first_two_b = b[0:2]
     return a.replace(first_two_a,first_two_b) + ' ' +  b.replace(first_two_b,first_two_a)
-    return
+  return
 
 
 # Provided simple test() function used in main() to print
