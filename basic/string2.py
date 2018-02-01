@@ -66,7 +66,7 @@ def front_back(a, b):
         b_back = b[-len(b) // 2:]
 
     return a_front  + b_front + a_back + b_back
-
+#
 
 
 
